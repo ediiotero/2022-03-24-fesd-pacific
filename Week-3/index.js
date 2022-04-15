@@ -20,7 +20,6 @@ const answers = [];
 const num = [2,5,9,10,23];
 
 
-
 // ===================
 
 // Create a function that will convert a Celsius to Fahrenheit and another 
@@ -32,13 +31,11 @@ const num = [2,5,9,10,23];
 // To convert F to C: Deduct 32, then multiply by 5, then divide by 9
 
 
-
 //   ========================
 
 // Write a function to find the longest word in the array
 
 var words = ["cat", "pizza", "javascript"]
-
 
 
 // =============================
@@ -47,5 +44,5 @@ var words = ["cat", "pizza", "javascript"]
 // and returns a new string with no spaces (please account for upper and lower case letters)
 // ex: 'The Batman' should return 'thbtmn'
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
