@@ -3,7 +3,7 @@
 
 // Global scope
 
-let test = 'Javascript';
+// let test = 'Javascript';
 var test2 = 'Coding'
 
 function testScopeGlobal() {
@@ -14,13 +14,14 @@ function testScopeGlobal() {
     console.log(`test is: `, test)
 }
 
-testScopeGlobal()
+// testScopeGlobal()
 
 // let vs var
 
 // BLOCK scope
 {
     let x = 2;
+
 }
   // x can NOT be used here
 
@@ -50,7 +51,7 @@ function testScopeVar() {
     console.log(`var: `, test)
 }
 
-// testScopeVar()
+testScopeVar()
 
 //   -----------------------------------------------
 

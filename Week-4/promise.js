@@ -20,7 +20,7 @@ function myDisplayer(some) {
 }
   
 let myPromise = new Promise(function(myResolve, myReject) {
-let x = 0;
+let x = 1;
 
 // The producing code (this may take some time)
 
