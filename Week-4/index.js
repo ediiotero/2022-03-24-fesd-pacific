@@ -61,4 +61,3 @@ list.forEach(element => {
 // if its lower reject the promise
 // Use the promise to alert "you win" if resolved
 // and "you lose" if rejected
-
