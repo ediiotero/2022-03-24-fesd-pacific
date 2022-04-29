@@ -47,10 +47,10 @@ const finishSentence = (array, callback) => {
 
 // finishSentence(list, combine)
 
-list.forEach(element => {
-    const word = prompt(element)
-    alert(combine(element, word))
-})
+// list.forEach(element => {
+//     const word = prompt(element)
+//     alert(combine(element, word))
+// })
 
 // ============================================
 
@@ -61,3 +61,17 @@ list.forEach(element => {
 // if its lower reject the promise
 // Use the promise to alert "you win" if resolved
 // and "you lose" if rejected
+
+
+let myPromise = new Promise(function(resolve, reject) {
+    const guess = prompt("Guess a number!");
+    setTimeout(() => {
+        if(guess >= 10){
+            resolve("You win")
+        } else {
+            reject("You lose")
+        }
+    }, 3000)
+});
+
+myPromise.then(value => alert(value)).catch(error => alert(error))
