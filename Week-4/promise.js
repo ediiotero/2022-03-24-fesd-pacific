@@ -9,7 +9,7 @@ function myCalculator(num1, num2, myCallback) {
   myCallback(sum);
 }
 
-myCalculator(5, 5, display);
+// myCalculator(5, 5, display);
 
 
 // Promise
@@ -25,6 +25,7 @@ let x = 1;
 // The producing code (this may take some time)
 
 if (x == 0) {
+  
     myResolve("OK");
 } else {
     myReject("Error");
