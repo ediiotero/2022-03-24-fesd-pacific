@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "title": "Using Bootstrap",
+      "author": "Mark Smith"
+    },
+    {
+      "id": 5,
+      "title": "What is JQuery",
+      "author": "Lisa Tang"
+    },
+    {
+      "id": 6,
+      "title": "Getting Started with React",
+      "author": "Jessica Shoemaker"
+    },
+    {
+      "id": 7,
+      "title": "Fursuits",
+      "author": "David Sath"
+    },
+    {
+      "title": "Furry",
+      "author": "River Sath",
+      "id": 8
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

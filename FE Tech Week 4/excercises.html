@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+    </head> 
+    <body>
+        <p id ='text'>JavaScript Exercises</p> 
+        <button id="jsstyle"
+        onclick="styleFont()">Style</button>
+
+            <!-- Change the color of the text in the p to red
+            Change the color of the background of the p tag to black
+
+            add a div to the body of the html document
+            add text to the new div of "Hello World"
+
+            Write a function for the onclick called styleFont
+            Make it change the font size of the text in the new div
+            to 3rem when the button is clicked -->
+            
+        <script>
+            const text = document.getElementById('text');
+            text.style.color = 'red';
+            text.style.backgroundColor = 'black';
+
+            const content = document.createElement('div');
+            const body = document.body;
+            body.append(content);
+
+            content.innerText = "Hello World"
+
+            function styleFont() {
+                content.style.fontSize = '3rem'
+            }
+
+        </script>
+    </body>
+</html>
