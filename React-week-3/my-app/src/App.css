@@ -1,0 +1,14 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/simple-seamless-colorful-random-dotted-pattern-background-vector-illustratoin-174534835.jpg");
+}
+
+.list-item {
+  font-family: 'Raleway', sans-serif;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #000;
+  background-color: #fefefe;
+  text-align: center;
+  width: 50%;
+  font-weight: 600;
+}
